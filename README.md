@@ -9,7 +9,7 @@ The application is deployed using **Flask**, allowing users to interact with the
 ## 📁 Project Structure
 ```
 heart_disease_flask/
-│── app.py                # Flask application
+│── heart disease.py      # Flask application
 │── index.html            # Frontend UI (HTML form for input)
 │── style.css             # CSS for styling the webpage
 │── svm_model.pkl         # Trained SVM model
@@ -29,7 +29,7 @@ pip install flask numpy joblib
 
 ### 2️⃣ Run the Flask Application
 ```bash
-python app.py
+python heart disease.py
 ```
 After running, the app will be available at:
 ```
@@ -59,7 +59,7 @@ Now, anyone can access the application using this link.
 
 ## 🖥️ Code Breakdown
 
-### **🔹 Flask Backend (`app.py`)**
+### **🔹 Flask Backend (`heart disease.py`)**
 - Loads the trained **SVM model** and **Scaler**
 - Renders an HTML form (`index.html`)
 - Handles **form submission & prediction logic**
